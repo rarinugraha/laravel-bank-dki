@@ -46,6 +46,12 @@ php artisan serve
 
 You can now access the server at http://localhost:8000
 
+7. Run queue for sending email
+
+```bash
+php artisan queue:work
+```
+
 ## Pembuatan User
 
 1. Setiap kantor cabang terdapat 2 user, 1 CS & 1 Supervisi.
