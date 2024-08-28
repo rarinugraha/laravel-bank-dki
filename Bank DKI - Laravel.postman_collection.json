@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "93a79d23-d005-4b12-bc8e-60abe447f6d1",
+		"name": "Bank DKI - Laravel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2830293"
+	},
+	"item": [
+		{
+			"name": "Offices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}api/offices?search=kcp",
+					"host": [
+						"{{server}}api"
+					],
+					"path": [
+						"offices"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "kcp"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Occupations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}api/occupations?search=peternak",
+					"host": [
+						"{{server}}api"
+					],
+					"path": [
+						"occupations"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "peternak"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Provinces",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}api/provinces?search=jawa barat",
+					"host": [
+						"{{server}}api"
+					],
+					"path": [
+						"provinces"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "jawa barat"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Regencies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}api/regencies/32?search=depok",
+					"host": [
+						"{{server}}api"
+					],
+					"path": [
+						"regencies",
+						"32"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "depok"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Districts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}api/districts/3276?search=cimanggis",
+					"host": [
+						"{{server}}api"
+					],
+					"path": [
+						"districts",
+						"3276"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "cimanggis"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Villages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}api/villages/327602?search=tugu",
+					"host": [
+						"{{server}}api"
+					],
+					"path": [
+						"villages",
+						"327602"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "tugu"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
